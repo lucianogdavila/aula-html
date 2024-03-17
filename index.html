@@ -6,12 +6,12 @@
     <title>Cursos de Habilitação Profissional para Dentistas</title>
     <style>
         body { font-family: Arial, sans-serif; }
-        .header { background-color: #8ED973; padding: 20px; text-align: center; }
-        .content { padding: 20px; }
-        .course { margin-bottom: 20px; }
-        .team { background-color: #DAF2D0; padding: 20px; margin-top: 20px; }
-        .contact { background-color: #CAEDFB; padding: 20px; margin-top: 20px; }
-        .contact-info { background-color: #8ED973; padding: 20px; text-align: center; }
+        .cabeçalho { background-color: #8ED973; padding: 20px; text-align: center; }
+        .paragrafos { padding: 20px; }
+        .curso { margin-bottom: 20px; }
+        .time { background-color: #DAF2D0; padding: 20px; margin-top: 20px; }
+        .contato { background-color: #CAEDFB; padding: 20px; margin-top: 20px; }
+        .informações { background-color: #8ED973; padding: 20px; text-align: center; }
         label { margin-top: 10px; display: block; }
         input, select { width: 100%; padding: 8px; margin-top: 5px; }
         button { width: 100%; padding: 10px; background-color: blue; color: white; border: none; margin-top: 10px; }
@@ -19,95 +19,95 @@
 </head>
 <body>
 
-<div class="header">
+<div class="cabeçalho">
     <h1>Cursos de Habilitação Profissional para Dentistas</h1>
     <p>Impulsionando sua carreira com excelência e Inovação na Odontologia</p>
 </div>
 
-<div class="content">
+<div class="paragrafos">
     <h2>Sobre Nós</h2>
     <p>Somos uma empresa dedicada à excelência profissional e à inovação na área da odontologia. Oferecemos cursos de ponta para profissionais que desejam se destacar no mercado.</p>
 
-  <div class="content">
+  <div class="paragrafos">
       <h2>Nossos Cursos</h2>
       <div class="course">
           <img src="laser.jpg" alt="Habilitação em Laserterapia" style="width:500px; height:auto;">
           <h3>Habilitação em Laserterapia</h3>
           <p>Aprenda técnicas avançadas de laserterapia na odontologia e como aplicá-las em seus pacientes.</p>
       </div>
-      <div class="course">
+      <div class="curso">
           <img src="sedacao.jpg" alt="Sedação Inalatória" style="width:500px; height:auto;">
           <h3>Sedação Inalatória</h3>
           <p>Curso prático sobre o uso de sedação inalatória para procedimentos odontológicos, aumentando o conforto do paciente.</p>
       </div>
-      <div class="course">
+      <div class="curso">
           <img src="gestao.jpg" alt="Gestão para Clínicas Odontológicas" style="width:500px; height:auto;">
           <h3>Gestão para Clínicas Odontológicas</h3>
           <p>Desenvolva habilidades de gestão e administração para liderar clínicas odontológicas com sucesso.</p>
       </div>
   </div>
 
-    <div class="team">
+    <div class="time">
         <h2>Nossa Equipe</h2>
         <p>Contamos com uma equipe de especialistas altamente qualificados, incluindo um coordenador, um responsável acadêmico e um responsável financeiro, todos comprometidos com a sua formação profissional.</p>
     </div>
   
-    <div class="team">
+    <div class="time">
         <h2>Nossa Equipe</h2>
-        <div class="team-member">
+        <div>
             <img src="leonardo.jpg" alt="Leonardo" style="width:100px; height:auto;">
             <h3>Leonardo</h3>
             <p>Doutor em Odontologia pelo CEUB e Mestre em Laser pela UNB.</p>
         </div>
-        <div class="team-member">
+        <div>
             <img src="lucas.jpg" alt="Lucas" style="width:100px; height:auto;">
             <h3>Lucas</h3>
             <p>Especialista em Registros Acadêmicos.</p>
         </div>
-        <div class="team-member">
+        <div>
             <img src="luciano.jpg" alt="Luciano" style="width:100px; height:auto;">
             <h3>Luciano</h3>
             <p>Especialista em Finanças.</p>
         </div>
     </div>
-    <div class="contact">
+    <div class="contato">
         <h2>Inscreva-se</h2>
         <form>
-            <label for="name">Nome</label>
-            <input type="text" id="name" name="name" required>
+            <label>Nome</label>
+            <input type="text" name="name" required>
 
-            <label for="phone">Telefone</label>
-            <input type="text" id="phone" name="phone" required>
+            <label>Telefone</label>
+            <input type="text" name="phone" required>
 
-            <label for="email">E-mail</label>
-            <input type="email" id="email" name="email" required>
+            <label>E-mail</label>
+            <input type="email" name="email" required>
 
-            <label for="course">Curso de Interesse</label>
-            <select id="course" name="course">
-                <option value="lasertherapy">Habilitação em Laserterapia</option>
-                <option value="sedation">Sedação Inalatória</option>
-                <option value="management">Gestão para Clínicas Odontológicas</option>
+            <label>Curso de Interesse</label>
+            <select>
+                <option>Habilitação em Laserterapia</option>
+                <option>Sedação Inalatória</option>
+                <option>Gestão para Clínicas Odontológicas</option>
             </select>
 
-          <label for="city">Cidade</label>
-          <select id="city" name="city">
-              <option value="Brasilia">Brasília</option>
-              <option value="Goiania">Goiânia</option>
-              <option value="Sao Paulo">São Paulo</option>
+          <label>Cidade</label>
+          <select>
+              <option>Brasília</option>
+              <option>Goiânia</option>
+              <option>São Paulo</option>
           </select>
 
-          <label for="state">Estado</label>
-          <select id="state" name="state">
-              <option value="DF">DF</option>
-              <option value="GO">GO</option>
-              <option value="SP">SP</option>
+          <label>Estado</label>
+          <select>
+              <option>DF</option>
+              <option>GO</option>
+              <option>SP</option>
           </select>
 
             <button type="submit">Enviar</button>
         </form>
     </div>
 </div>
-  <div class="contact-info">
+  <div class="informações">
       <h2>Contato</h2>
       <p>Cursos de Habilitação Ltda<br>
       SCN Quadra 55<br>
